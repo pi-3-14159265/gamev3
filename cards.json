@@ -1,0 +1,182 @@
+[
+{
+    "nameOfCard":"Smite",
+    "cardInfo": "Deal 100 attack damage.",
+    "cardType" : "Attack",
+    "manaCost" : "33",
+    "cardEffects" : {
+        "gold" : -10,
+        "damage" : 100
+        }
+},
+{
+    "nameOfCard":"Shield",
+    "cardInfo": "Gain 20 shield.",
+    "cardType" : "Defence",
+    "manaCost" : "25",
+    "cardEffects" : {
+        "gold": -10,
+        "shield" : 20
+        }
+},
+{
+    "nameOfCard":"Rage",
+    "cardInfo": "Gain 50 buff tokens.",
+    "cardType" : "Spell",
+    "manaCost" : "35",
+    "cardEffects" : {
+        "gold" : -30,
+        "buff" : 50
+    }
+},
+{
+    "nameOfCard":"All Around a Nice Person",
+    "cardInfo": "Bring your HP to max, Bring enemies HP to max, Reset all of your tokens, reset all the enemies tokens.",
+    "cardType" : "Spell",
+    "manaCost" : "100",
+    "cardEffects" : {
+        "gold" : -100
+      }
+},
+{
+    "nameOfCard":"Cold Night",
+    "cardInfo": "You gain 5 frost tokens, all enemies gain 10 frost tokens.",
+    "cardType" : "Attack",
+    "manaCost" : "5",
+    "cardEffects" : {
+        "gold" : -50,
+        "frostTokensToYou" : 5,
+        "frostTokensToEnemy" : 10}
+},
+{
+    "nameOfCard":"A Cold Summer Night",
+    "cardInfo": "Enemies gain 45 burn tokens, enemies gain 15 frost tokens, you gain 30 frost tokens.",
+    "cardType" : "Attack",
+    "manaCost" : "50",
+    "cardEffects" : {
+        "gold" : -50,
+        "frostTokensToYou" : 30 ,
+        "burn" : [45, 2],
+        "frostTokensToEnemy" : 15}
+},
+{
+    "nameOfCard":"Super Sheild",
+    "cardInfo": "Gain 100 sheild.",
+    "cardType" : "Defence",
+    "manaCost" : "90",
+    "cardEffects" : {
+        "gold" : -80,
+        "shield" : 100}
+},
+{
+    "nameOfCard":"Call of Stregth",
+    "cardInfo": "Gain 50 buff tokens, deal 40 damage.",
+    "cardType" : "takes argument 'defenace' or 'attack' this may be chaged in the future",
+    "manaCost" : "how much mana",
+    "cardEffects" : {
+        "gold" : -50,
+        "buff" : 50,
+        "damage" : 40}
+},
+{
+    "nameOfCard":"It's Raing Fire",
+    "cardInfo": "All Enemies gain 50 brun tokens.",
+    "cardType" : "Attack",
+    "manaCost" : "25",
+    "cardEffects" : {
+        "gold" : -25,
+        "burn" : [50, 2]}
+},
+{
+    "nameOfCard":"On Fire",
+    "cardInfo": "Apply 100 burn tokens.",
+    "cardType" : "Attack",
+    "manaCost" : "125",
+    "cardEffects" : {
+        "gold" : -100,
+        "burn" : [100, 2]}
+},
+{
+    "nameOfCard":"On Ice",
+    "cardInfo": "All Enemies gain 100 frost tokens.",
+    "cardType" : "Attack",
+    "manaCost" : "100",
+    "cardEffects" : {
+        "gold" : -80,
+        "frostTokensToEnemy" : 100}
+},
+{
+    "nameOfCard":"OverPowered",
+    "cardInfo": "Gain 150 buff tokeins.",
+    "cardType" : "Spell",
+    "manaCost" : "110",
+    "cardEffects" : {
+        "gold" : -300,
+        "buff" : 300
+    }
+},
+{
+    "nameOfCard":"Fighting Words",
+    "cardInfo": "Enemies gain 10 frost tokens, all enemies gain 10 burn tokens",
+    "cardType" : "Spell",
+    "manaCost" : "10",
+    "cardEffects" : {
+        "gold" : -10,
+        "burn" : [10, 2],
+        "frostTokensToEnemy" : 10}
+},
+{
+    "nameOfCard":"Free Attack",
+    "cardInfo": "deal 10 damage.",
+    "cardType" : "Attack",
+    "manaCost" : "0",
+    "cardEffects" : {
+        "gold" : -100,
+        "damage" : 10}
+},
+{
+    "nameOfCard":"Lucky Dodge",
+    "cardInfo": "Gain 10 Sheild",
+    "cardType" : "Defence",
+    "manaCost" : "0",
+    "cardEffects" : {
+        "gold" : -100,
+        "shield" : 10}
+},
+{
+    "nameOfCard":"?",
+    "cardInfo": "What does this card do?",
+    "cardType" : "Spell",
+    "manaCost" : "0",
+    "cardEffects" : {
+        "gold" : 0,
+        "damage" : 1}
+},
+{
+    "nameOfCard":"Is It Cold Outside?",
+    "cardInfo": "You gain 100 frost tokens, gain 200 sheild.",
+    "cardType" : "Defence",
+    "manaCost" : "100",
+    "cardEffects" : {
+        "gold" : -90,
+        "shield" : 200,
+        "frostTokensToYou" : 100}
+    },
+    {
+        "nameOfCard":"A Brand New Day",
+        "cardInfo": "Reset all your tokens to zero",
+        "cardType" : "Spell",
+        "manaCost" : "0",
+        "cardEffects" : {
+            "gold" : -100}
+    },
+{
+    "nameOfCard":"Strategy",
+    "cardInfo": "Gain 10 sheild, Deal 25 Attack",
+    "cardType" : "Spell",
+    "manaCost" : "25",
+    "cardEffects" : {
+        "gold" : -30,
+        "shield" : 10,
+        "damage" : 25}    
+}]
